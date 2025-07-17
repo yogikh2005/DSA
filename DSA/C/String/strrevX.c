@@ -22,6 +22,7 @@ void strrevX(char *str)
 	}
 	
 	
+	
 }
 
 int main()
