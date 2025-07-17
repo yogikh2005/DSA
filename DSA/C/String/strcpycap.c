@@ -14,6 +14,7 @@ void strcpycap(char *str,char *str2)
 		*str++;
 		*str2++:	
 	}
+	
 	*str2='\0';
 	
 }
