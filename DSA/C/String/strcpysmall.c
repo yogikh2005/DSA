@@ -15,6 +15,7 @@ void strcpysmall(char *str,char *str2)
 		*str2++;	
 	}
 	*str2='\0';
+	
 }
 int main()
 {
