@@ -13,6 +13,7 @@ void strlwrX(char *str)
 int main()
 {
 	
+	
 	char str[20];
 	
 	printf("Enter the string\n");

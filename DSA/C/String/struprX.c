@@ -9,6 +9,7 @@ void struprX(char *str)
 		}
 		*str++;
 	}
+	
 }
 int main()
 {

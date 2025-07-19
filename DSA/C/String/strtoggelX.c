@@ -13,6 +13,7 @@ void strtoggeleX(char *str)
 		}
 		*str++;
 	}	
+	
 }
 
 int main()
