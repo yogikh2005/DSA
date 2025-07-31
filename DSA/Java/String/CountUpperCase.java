@@ -14,6 +14,7 @@ class StringX
 		return iCnt;
 	}
 }
+
 class CountUpperCase
 {
 	public static void main(String argv[])
