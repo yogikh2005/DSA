@@ -43,8 +43,8 @@ class stringAnagrams
 		Boolean  bRes;
 		Scanner sc=new Scanner(System.in);
 		
-		System.out.println("Enter the 1st string ");
 		str=sc.nextLine();
+		System.out.println("Enter the 1st string ");
 		
 		System.out.println("Enter the 2nd string ");
 		str2=sc.nextLine();

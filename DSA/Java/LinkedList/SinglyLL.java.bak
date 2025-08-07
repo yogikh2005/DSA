@@ -1,0 +1,40 @@
+imoprt java.util;
+
+class Node
+{
+	public int Data;
+	public int Next;
+	
+	public Node(int No)
+	{
+		this.Data=No;
+		this.Next=null;
+	}
+}
+
+class SinglyLL
+{
+	private Node Head;
+	private int Count;
+	
+	public SinglyLL()
+	{
+		Head=null;
+		Count=0;
+	}
+	
+	public void InsertFirst(int No)
+	{
+		Node newn=new Node(No);
+		if(this.Head==null)
+		{
+			this.Head=newn;
+		}
+		else
+		{
+			newn.next=this.Head;
+			this.head=newn;
+		}
+	}
+	
+}

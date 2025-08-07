@@ -8,8 +8,8 @@ bool CheckPalindrome(int iNo)
 	if(iNo<=0)
 	{
 		iNo=-iNo;
-	}
 	while(iNo!=0)
+	}
 	{	
 		iDigit=iNo%10;
 		iRev=(iRev*10)+iDigit;

@@ -38,8 +38,8 @@ int main()
 	scanf("%d",&iValue);
 	
 	iRes=CountDigit(iValue);
-	
 	printf("Digit in the number is %d",iRes);
+	
 	
 	return 0;
 	

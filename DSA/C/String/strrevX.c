@@ -21,8 +21,6 @@ void strrevX(char *str)
 		end--;
 	}
 	
-	
-	
 }
 
 int main()
