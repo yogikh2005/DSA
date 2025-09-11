@@ -11,6 +11,7 @@ class NumberPrint {
 }
 
 
+
 class RecursionDisplayNumber 
 {
     public static void main(String args[]) 
@@ -20,3 +21,4 @@ class RecursionDisplayNumber
         printer.displayNumber(1, 5); 
     }
 }
+
