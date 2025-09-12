@@ -1,0 +1,23 @@
+	class NumberX {
+		
+		public int Fibonaccigenarate(int i) {
+			if (i <=1) 
+				return i;			
+			
+			return Fibonaccigenarate(i -1)+Fibonaccigenarate(i-2);
+		}
+	}
+
+	class FibonacciSeries {
+		public static void main(String args[]) {
+			
+			NumberX nobj = new NumberX(); 
+			
+			int res=nobj.Fibonaccigenarate(3);
+			
+			System.out.println("Next fibonacci serires number "+res);
+
+		 
+		   
+		}
+	}
