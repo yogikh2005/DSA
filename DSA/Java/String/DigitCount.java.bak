@@ -30,8 +30,8 @@ class DigitCount
 		Stringx st=new Stringx();
 		
 		int iRes=st.countDigit(s);
-		System.out.println("The count of the digit is "+iRes);
 		
+		System.out.println("The count of the digit is "+iRes);
 		
 	}
 }
