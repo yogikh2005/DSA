@@ -15,7 +15,7 @@ class MissingNumberFinder {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 4, 5};  // Example input (missing 3)
+        int[] arr = {1, 2, 4, 5};  // Example input (missing 3) 
         int N = 5;  // Numbers should be from 1 to 5
         System.out.println("Missing Number: " + missingNumber(arr, N));
     }
