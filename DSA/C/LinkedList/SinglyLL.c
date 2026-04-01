@@ -14,13 +14,13 @@ typedef struct node ** PPNODE;
 
 //-----------------------------------------------------------------
 // Function Name : InsertFirst
-// Description : It's insert node at first position 
-//  Paramaters : PPNODE , no
-//              PPNODE - Head address
-//              no - data to be insert
-// Return : None
-// Date : 25/03/2026
-// Author : Yogiraj Khaladkar
+// Description   : It's insert node at first position 
+//  Parameters   : PPNODE , no
+//                PPNODE - Head address
+//                no - data to be insert
+// Return       : None
+// Date        : 25/03/2026
+// Author      : Yogiraj Khaladkar
 //------------------------------------------------------------------
 void InsertFirst(PPNODE First,int no)
 {
@@ -87,11 +87,11 @@ void InsertLast(PPNODE First,int no)
 
 //-----------------------------------------------------------------
 // Function Name : InsertAtPos
-// Description : It's insert node at position
-//  Paramaters : PPNODE , no ,pos
-//              PPNODE - Head address
-//              no - data to be insert
-//              pos - position where to inserrt the node
+// Description   : It's insert node at position
+//  Parameters   : PPNODE , no ,pos
+    //             PPNODE - Head address
+    //             no - data to be insert
+    //             pos - position where to inserrt the node
 // Return : None
 // Date : 25/03/2026
 // Author : Yogiraj Khaladkar
@@ -139,18 +139,17 @@ void InsertAtPos(PPNODE First,int no,int ipos)
 
         newn->next = temp -> next;
         temp ->next = newn;
-
     }
 }
 
 //-----------------------------------------------------------------
 // Function Name : DeleteFirst
-// Description : It's delete the first node of the linkedlist 
-//  Paramaters : PPNODE 
-//              PPNODE - Head address
-// Return : None
-// Date : 25/03/2026
-// Author : Yogiraj Khaladkar
+// Description   : It's delete the first node of the linkedlist 
+//  Parameters   : PPNODE 
+//                 PPNODE - Head address
+// Return        : None
+// Date          : 25/03/2026
+// Author        : Yogiraj Khaladkar
 //------------------------------------------------------------------
 void DeleteFirst(PPNODE First)
 {   
@@ -177,12 +176,12 @@ void DeleteFirst(PPNODE First)
 
 //-----------------------------------------------------------------
 // Function Name : DeleteLast
-// Description : It's delete the last node of the linkedlist 
-//  Paramaters : PPNODE 
-//              PPNODE - Head address
-// Return : None
-// Date : 25/03/2026
-// Author : Yogiraj Khaladkar
+// Description   : It's delete the last node of the linkedlist 
+//  Parameters   : PPNODE 
+//                 PPNODE - Head address
+// Return        : None
+// Date          : 25/03/2026
+// Author        : Yogiraj Khaladkar
 //------------------------------------------------------------------
 void DeleteLast(PPNODE First)
 {   
@@ -214,14 +213,14 @@ void DeleteLast(PPNODE First)
 }
 
 //-----------------------------------------------------------------
-// Function Name : DeleteAtPos
-// Description : It's delete node of position
-//  Paramaters : PPNODE ,ipos
-//              PPNODE - Head address
-//              ipos - position which node to delete
-// Return : None
-// Date : 25/03/2026
-// Author : Yogiraj Khaladkar
+// Function Name  : DeleteAtPos
+// Description    : It's delete node of position
+// Parameters    : PPNODE ,ipos
+//                  PPNODE - Head address
+//                  ipos - position which node to delete
+// Return         : None
+// Date           : 25/03/2026
+// Author         : Yogiraj Khaladkar
 //------------------------------------------------------------------
 void DeleteAtPos(PPNODE First,int ipos)
 {
@@ -261,13 +260,12 @@ void DeleteAtPos(PPNODE First,int ipos)
 }
 
 //-----------------------------------------------------------------
-// Function Name : Display
-// Description : It's diplay node of linkedlist
-//  Paramaters : PNODE 
-//              PNODE - Head data
-// Return : None
-// Date : 25/03/2026
-// Author : Yogiraj Khaladkar
+// Function Name    : Display
+// Description      : It's diplay node of linkedlist
+// Parameters      : PNODE - Head data
+// Return           : None
+// Date             : 25/03/2026
+// Author           : Yogiraj Khaladkar
 //------------------------------------------------------------------
 void Display(PNODE First)
 {
@@ -282,14 +280,12 @@ void Display(PNODE First)
 }
 
 //-----------------------------------------------------------------
-// Function Name : Count
-// Description : It's count the node in the linkedlist
-//  Paramaters : PNODE 
-//              PNODE - Head data
-// Return : iCount
-//         iCount - count of node in linkedlist
-// Date : 25/03/2026
-// Author : Yogiraj Khaladkar
+// Function Name  : Count
+// Description    : It's count the node in the linkedlist
+// Parameters     : PNODE - Head data
+// Return         : iCount - count of node in linkedlist
+// Date           : 25/03/2026
+// Author         d: Yogiraj Khaladkar
 //------------------------------------------------------------------
 int Count(PNODE First)
 {
@@ -355,3 +351,5 @@ int main()
 
     return 0;
 }
+
+// 27000 + 16500 + 7500 = 51000
