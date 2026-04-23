@@ -39,10 +39,6 @@ class Digits
         {
             return false;
         }
-		
-		
-		
-		
 	}
 }
 class CheckArmstrong

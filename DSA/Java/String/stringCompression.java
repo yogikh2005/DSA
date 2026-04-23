@@ -15,13 +15,12 @@ class StringX
 {
 	public String strCompression(String str)
 	{	
-		
 		StringBuilder sb=new StringBuilder();
 		
 		for(int i =0;i<str.length();i++)
 		{
 			int icnt=1;
-			while(i<str.length()-1 &&str.charAt(i)==str.charAt(i+1))
+			while(i<str.length()-1 && str.charAt(i)==str.charAt(i+1))
 			{
 				icnt++;
 				i++;
